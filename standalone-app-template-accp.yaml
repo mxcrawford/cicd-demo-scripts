@@ -7,7 +7,7 @@ spec:
     servicePlan: #{database_plan}#
   storage: # Specification of Storage CR
     servicePlan: #{storage_plan}#
-  mendixRuntimeVersion: 9.2.0.20531 # Mendix version to use for placeholder runtime image
+  mendixRuntimeVersion: #{app_version}# # Mendix version to use for placeholder runtime image
   sourceURL: #{mda_url}# # URL of App's source MDA
   appURL: #{app_url_accp}# # URL to access the app
   tls: # Optional, can be omitted : set a custom TLS configuration, overriding the default operator configuration
