@@ -60,16 +60,16 @@
 	"tags": [],
 	"_links": {
 		"self": {
-			"href": "https://dev.azure.com/TechnicalEnablement/d36155ba-10d2-4f78-b089-db5ccda3ffe3/_apis/build/Definitions/6?revision=32"
+			"href": "https://dev.azure.com/TechnicalEnablement/c4c4abc2-15db-4360-9e27-aab186ceb642/_apis/build/Definitions/6?revision=32"
 		},
 		"web": {
-			"href": "https://dev.azure.com/TechnicalEnablement/d36155ba-10d2-4f78-b089-db5ccda3ffe3/_build/definition?definitionId=6"
+			"href": "https://dev.azure.com/TechnicalEnablement/c4c4abc2-15db-4360-9e27-aab186ceb642/_build/definition?definitionId=6"
 		},
 		"editor": {
-			"href": "https://dev.azure.com/TechnicalEnablement/d36155ba-10d2-4f78-b089-db5ccda3ffe3/_build/designer?id=6&_a=edit-build-definition"
+			"href": "https://dev.azure.com/TechnicalEnablement/c4c4abc2-15db-4360-9e27-aab186ceb642/_build/designer?id=6&_a=edit-build-definition"
 		},
 		"badge": {
-			"href": "https://dev.azure.com/TechnicalEnablement/d36155ba-10d2-4f78-b089-db5ccda3ffe3/_apis/build/status/6"
+			"href": "https://dev.azure.com/TechnicalEnablement/c4c4abc2-15db-4360-9e27-aab186ceb642/_apis/build/status/6"
 		}
 	},
 	"jobAuthorizationScope": 1,
@@ -304,7 +304,7 @@
 	},
 	"id": 6,
 	"name": "build_mx4pc_mda_k8s-testapp",
-	"url": "https://dev.azure.com/TechnicalEnablement/d36155ba-10d2-4f78-b089-db5ccda3ffe3/_apis/build/Definitions/6?revision=32",
+	"url": "https://dev.azure.com/TechnicalEnablement/c4c4abc2-15db-4360-9e27-aab186ceb642/_apis/build/Definitions/6?revision=32",
 	"uri": "vstfs:///Build/Definition/6",
 	"path": "\\",
 	"type": 2,
@@ -312,9 +312,9 @@
 	"revision": 32,
 	"createdDate": "2021-07-15T12:53:49.693Z",
 	"project": {
-		"id": "d36155ba-10d2-4f78-b089-db5ccda3ffe3",
-		"name": "Mendix World CICD",
-		"url": "https://dev.azure.com/TechnicalEnablement/_apis/projects/d36155ba-10d2-4f78-b089-db5ccda3ffe3",
+		"id": "c4c4abc2-15db-4360-9e27-aab186ceb642",
+		"name": "CICD_Demo_Project",
+		"url": "https://dev.azure.com/TechnicalEnablement/_apis/projects/c4c4abc2-15db-4360-9e27-aab186ceb642",
 		"state": 1,
 		"revision": 20,
 		"visibility": 0,
