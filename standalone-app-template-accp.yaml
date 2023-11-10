@@ -28,11 +28,11 @@ spec:
   replicas: 1 # Number of replicas, set to 0 to stop all replicas
   resources: # Optional, can be omitted : set resources for Mendix Runtime container
     limits: # Upper limit - process will be stopped if it tries to use more
-      cpu: 500m # 500 millicores - half of a vCPU
-      memory: 512Mi # 512 megabytes - suitable for small-scale non-production apps
+      cpu: 1 # 500 millicores - half of a vCPU
+      memory: 1Gb # 512 megabytes - suitable for small-scale non-production apps
     requests: # Lower limit - needs at least these resources
-      cpu: 250m
-      memory: 256Mi
+      cpu: 500m
+      memory: 500Mi
   runtimeDeploymentPodAnnotations: # Optional, can be omitted : set custom annotations for Mendix Runtime Pods
     ## example: inject the Linkerd proxy sidecar
     linkerd.io/inject: enabled
