@@ -29,7 +29,7 @@ spec:
   resources: # Optional, can be omitted : set resources for Mendix Runtime container
     limits: # Upper limit - process will be stopped if it tries to use more
       cpu: 1 # 500 millicores - half of a vCPU
-      memory: 1Gb # 512 megabytes - suitable for small-scale non-production apps
+      memory: 1GB # 512 megabytes - suitable for small-scale non-production apps
     requests: # Lower limit - needs at least these resources
       cpu: 500m
       memory: 500Mi
