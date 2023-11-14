@@ -44,7 +44,7 @@ spec:
     logLevels: # Optional, can be omitted : set custom log levels for specific nodes
       NodeOne: CRITICAL
       NodeTwo: DEBUG
-    #microflowConstants:
+    microflowConstants:
     scheduledEventExecution: NONE # Optional, can be omitted: specify which scheduled events should be enabled: ALL/NONE/SPECIFIED
     #myScheduledEvents: # List which scheduled events should be enabled; should only be used if scheduledEventExecution is set to SPECIFIED
     #  - MyFirstModule.MyScheduledEvent
